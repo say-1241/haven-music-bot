@@ -17,10 +17,8 @@ const client = new Client({
     ]
 });
 
+// تهيئة DisTube متوافقة مع v5
 const distube = new DisTube(client, {
-    leaveOnEmpty: true,
-    leaveOnFinish: true,
-    leaveOnStop: true,
     emitNewSongOnly: true
 });
 
